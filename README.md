@@ -35,22 +35,28 @@ permitan visualizar el funcionamiento de la curva ADSR.
   - Para un instrumento de este tipo, tenemos dos situaciones posibles:
     * El intérprete mantiene la nota *pulsada* hasta su completa extinción.
     
+    
 	<img src="Img/piano2.png" width="640" align="center">  
+    
     
     
     * El intérprete da por finalizada la nota antes de su completa extinción, iniciándose una disminución
 	  abrupta del sonido hasta su finalización.
-	  
+	
+	
 	<img src="Img/piano1.png" width="640" align="center">  
-	  
+	
+	
 	  
   - Debera representar en esta memoria **ambos** posibles finales de la nota.
 * Un instrumento *plano*, como los de cuerdas frotadas (violines y semejantes) o algunos de viento. En
   ellos, el ataque es relativamente rápido hasta alcanzar el nivel de mantenimiento (sin sobrecarga), y la
   liberación también es bastante rápida.
-  
+
+
 <img src="Img/vent.png" width="640" align="center">  
-  
+
+
 
 Para los cuatro casos, deberá incluir una gráfica en la que se visualice claramente la curva ADSR. Deberá
 añadir la información necesaria para su correcta interpretación, aunque esa información puede reducirse a

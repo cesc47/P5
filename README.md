@@ -62,6 +62,8 @@ Para los cuatro casos, deberá incluir una gráfica en la que se visualice clara
 añadir la información necesaria para su correcta interpretación, aunque esa información puede reducirse a
 colocar etiquetas y títulos adecuados en la propia gráfica (se valorará positivamente esta alternativa).
 
+<img src="Img/total.png" width="640" align="center">  
+
 ### Instrumentos Dumb y Seno.
 
 Implemente el instrumento `Seno` tomando como modelo el `InstrumentDumb`. La señal **deberá** formarse

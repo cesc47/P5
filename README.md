@@ -127,12 +127,26 @@ mediante búsqueda de los valores en una tabla.
   
   <img src="Img/tremolo.png" width="640" align="center"> 
   
-  **`Podemos aquí observar el efecto del vibrato sobre una señal. Observamos que consiste en variar, alternada y rápidamente, la afinación de la nota. En las siguientes fotografias podemos ver la implementación del vibrato, se puede observar que el contorno de pitch varia.`**
+  **`En la siguiente imagen podemos observar el contorno de pitch y la señal original. En la primera forma de onda, observamos la señal original sin ningún tipo de modificación. Después en la segunda forma de onda observamos el efecto del tremolo, y en la tercera el vibratto. Podemos aquí observar el efecto del vibrato sobre una señal, que consiste en variar, alternada y rápidamente, la afinación de la nota. Se puede ver que el contorno de pitch varia (solo en el caso del vibratto).`**
   
-  <img src="Img/vibrato.png" width="640" align="center"> 
-  <img src="Img/pitch.png" width="640" align="center"> 
-
     <img src="pitch2.png" width="640" align="center"> 
+
+ **`Este es otro ejemplo de tremolo (pero un caso que no es tan exagerado):`**
+  
+  <img src="Img/tremolo1.png" width="640" align="center"> 
+
+ 
+ **`Su implementación:`**
+ 
+   <img src="Img/tremolo1_imp.png" width="640" align="center"> 
+
+  **`Este es un ejemplo donde hemos creado un efecto de vibratto respecto a unas notas que hemos configurado nosotros mismos. Las notas representan la canción 'Tu me dejaste caer' - Autor: Daddy Yankee, de los primeros 10 segundos de la canción. Aquí podemos ver la forma de onda, con su posterior implementación. Comentar que el vibratto lo hemos puesto en el canal 7, y hemos hecho servir el instrumento seno:`**
+   <img src="Img/vibrato.png" width="640" align="center"> 
+   <img src="Img/vibrato_imp.png" width="640" align="center"> 
+   <img src="Img/1.png" width="640" align="center"> 
+   <img src="Img/2.png" width="640" align="center"> 
+
+
 
 - Si ha generado algún efecto por su cuenta, explique en qué consiste, cómo lo ha implementado y qué
   resultado ha producido. Incluya, en el directorio `work/ejemplos`, los ficheros necesarios para apreciar

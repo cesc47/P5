@@ -70,11 +70,30 @@ Implemente el instrumento `Seno` tomando como modelo el `InstrumentDumb`. La se�
 mediante búsqueda de los valores en una tabla.
 
 - Incluya, a continuación, el código del fichero `seno.cpp` con los métodos de la clase Seno.
+
+**`Antes de mostrar los cambios en los ficheros, vamos a explicar el procedimiento que hemos usado:`**
+
+
+**`Con el cálculo de f0 generamos F (frecuencia discreta) y posteriormente lo comparamos con Fn, que representa el incremento de 1/N del step generado en la tabla. Entonces, sabremos en cada momento el incremento que hay aplicar para hacer la búsqueda en la tabla.`**
+
+**`Hemos modificado seno.h para tener acceso a dos variables necesarias para la búsqueda de los valores en la tabla. La variable F0 representará el cálculo de f0 entre fs (frecuencia de muestreo). La variable acumulat representará la suma de incrementos, donde el índice será el redondeo (round) de acumulado.`**
+
+<img src="Img/senoh.png" width="640" align="center">  
+
+**`En command(.) hemos añadido al código anterior el cálculo de f0 y F y la actualización de la variable acumulat (pasan a cero cuando dejamos de pulsar la nota). Lo demás es el código perteneciente a InstrumentDumb pero aplicado a nuestro nuevo instrumento.`**
+
+<img src="Img/seno1.png" width="640" align="center">  
+
+**`En synthesize(.) calculamos para cada muestra el incremento y lo sumamos a acumulat. Posteriormente hacemos el round tal y como hemos comentado antes (ya que al acceder a la tabla, hay que hacerlo con numeros enteros, y lo haremos redondeando al decimal más cercano).`**
+
+<img src="Img/seno2.png" width="640" align="center"> 
+
+
+
 - Explique qué método se ha seguido para asignar un valor a la señal a partir de los contenidos en la tabla,
   e incluya una gráfica en la que se vean claramente (use pelotitas en lugar de líneas) los valores de la
   tabla y los de la señal generada.
-- Si ha implementado la síntesis por tabla almacenada en fichero externo, incluya a continuación el código
-  del método `command()`.
+
 
 ### Efectos sonoros.
 

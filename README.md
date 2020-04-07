@@ -123,6 +123,7 @@ mediante búsqueda de los valores en una tabla.
   índice de modulación) en la señal generada (se valorará que la explicación esté contenida en las propias
   gráficas, sin necesidad de *literatura*).
   
+  
   <img src="Img/tremolo.png" width="640" align="center"> 
   <img src="Img/vibrato.png" width="640" align="center"> 
   <img src="Img/pitch.png" width="640" align="center"> 

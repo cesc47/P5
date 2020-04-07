@@ -158,6 +158,8 @@ mediante búsqueda de los valores en una tabla.
 
   <img src="Img/distortion_code.png" width="640" align="center"> 
 
+  **`Basicamente lo que hemos hecho es amplificar de tal manera que si superamos un umbral saturamos, provocando armónicos de la frecuencia fundamental, generando así distorsión en la señal.`**
+
       
   **`Este es el efecto:`**
 

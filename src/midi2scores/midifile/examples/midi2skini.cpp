@@ -10,8 +10,6 @@
 //                SKINI data format.
 //
 
-#include <errno.h>
-
 #include "MidiFile.h"
 #include "Options.h"
 
@@ -40,11 +38,9 @@ void      usage                 (const char* command);
 //////////////////////////////////////////////////////////////////////////
 
 int main(int argc, char* argv[]) {
-   extern int errno;
-
    checkOptions(options, argc, argv);
    MidiFile midifile;
-   if (not midifile.read(options.getArg(1))) return (errno ? errno : EINVAL);
+   midifile.read(options.getArg(1));
    midifile.absoluteTime();
    midifile.joinTracks();
    printMidiAsSkini(midifile);

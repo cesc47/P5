@@ -141,6 +141,7 @@ mediante búsqueda de los valores en una tabla.
    <img src="Img/doremi2.png" width="640" align="center"> 
 
   **`Este es un ejemplo donde hemos creado un efecto de vibratto respecto a unas notas que hemos configurado nosotros mismos. Las notas representan la canción 'Tu me dejaste caer' - Autor: Daddy Yankee, de los primeros 10 segundos de la canción. Aquí podemos ver la forma de onda, con su posterior implementación en el fichero .sco. Comentar que el vibratto lo hemos puesto en el canal 7, y hemos hecho servir el instrumento seno:`**
+ 
    <img src="Img/vibrato1.png" width="640" align="center"> 
    <img src="Img/doremi.png" width="640" align="center"> 
    <img src="Img/1.png" width="640" align="center"> 
@@ -154,8 +155,14 @@ mediante búsqueda de los valores en una tabla.
   programa `synth`.
 
   **`Aquí podemos ver como hemos hecho el efecto de distorsión. El código es el siguiente:`**
-  
-    <img src="distortion.png" width="640" align="center"> 
+
+  <img src="Img/distortion_code.png" width="640" align="center"> 
+
+      
+  **`Este es el efecto:`**
+
+<img src="distortion.png" width="640" align="center"> 
+
 
 ### Síntesis FM.
 

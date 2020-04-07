@@ -132,7 +132,9 @@ mediante búsqueda de los valores en una tabla.
   <img src="Img/vibrato.png" width="640" align="center"> 
   <img src="Img/pitch.png" width="640" align="center"> 
 
-  
+    <img src="pitch2.png" width="640" align="center"> 
+    <img src="distortion.png" width="640" align="center"> 
+
 - Si ha generado algún efecto por su cuenta, explique en qué consiste, cómo lo ha implementado y qué
   resultado ha producido. Incluya, en el directorio `work/ejemplos`, los ficheros necesarios para apreciar
   el efecto, e indique, a continuación, la orden necesaria para generar los ficheros de audio usando el

@@ -73,6 +73,7 @@ mediante búsqueda de los valores en una tabla.
 
 **`Antes de mostrar los cambios en los ficheros, vamos a explicar el procedimiento que hemos usado:`**
 
+<img src="Img/formula.png" width="640" align="center">  
 
 **`Con el cálculo de f0 generamos F (frecuencia discreta) y posteriormente lo comparamos con Fn, que representa el incremento de 1/N del step generado en la tabla. Entonces, sabremos en cada momento el incremento que hay aplicar para hacer la búsqueda en la tabla.`**
 

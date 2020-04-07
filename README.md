@@ -94,15 +94,26 @@ mediante búsqueda de los valores en una tabla.
   e incluya una gráfica en la que se vean claramente (use pelotitas en lugar de líneas) los valores de la
   tabla y los de la señal generada.
 
+**`Aquí podemos observar la forma de onda en Instrument_dumb. Podemos observar que se escojen valores de fase equiespaciados 1/N.`**
+
+<img src="Img/contenidos_tabla.png" width="640" align="center"> 
+
+**`Aquí podemos observar la forma de onda en seno. Podemos observar que se escojen valores de fase haciendo el redondeo 'índice', tal y como se ha explicado antes.`**
+
 <img src="Img/Contenidos_tabla_instrumentdumb.png" width="640" align="center"> 
+
+**`Aquí podemos observar la forma de onda en Instrument_dumb. Podemos observar que se escojen valores de fase equiespaciados 1/N.`**
+
+
+**`Como ampliación, hemos hecho la interpolación con la muestra anterior y posterior. Podemos observar que hay una mejora audible bastante importante.`**
 
 <img src="Img/ampliacion_seno1.png" width="640" align="center"> 
 
-<img src="Img/ampliacion_seno2.png" width="640" align="center"> 
+**`Hemos hecho el mismo procedimiento que antes, pero ahora con 'anterior' y 'posterior'. Con esto, hemos conseguido hacer una interpolación.`**
 
+<img src="Img/ampliacion_seno2.png" width="640" align="center"> 
 <img src="Img/ampliacion_seno3.png" width="640" align="center"> 
 
-<img src="Img/contenidos_tabla.png" width="640" align="center"> 
 
 
 ### Efectos sonoros.

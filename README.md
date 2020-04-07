@@ -102,7 +102,7 @@ mediante búsqueda de los valores en una tabla.
 
 <img src="Img/ampliacion_seno3.png" width="640" align="center"> 
 
-<img src="Img/Contenidos_tabla.png" width="640" align="center"> 
+<img src="Img/contenidos_tabla.png" width="640" align="center"> 
 
 
 ### Efectos sonoros.

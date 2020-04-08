@@ -211,8 +211,6 @@ deberá venir expresado en semitonos.
 
 **` - Frecuencia de la portadora = 900 Hz`**
 
-**` - Amplitud = 2`**
-
 <img src="Img/esquemaclarinete.png" width="640" align="center"> 
 
 **`Por lo tanto podemos concluir que los valores N1, N2 e I son:`**

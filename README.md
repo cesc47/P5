@@ -173,6 +173,11 @@ de [John M. Chowning](https://ccrma.stanford.edu/sites/default/files/user/jc/fm_
 instrumento usará como parámetros **básicos** los números `N1` y `N2`, y el índice de modulación `I`, que
 deberá venir expresado en semitonos.
 
+**`Para hacer los cálculos, hemos seguido las fórmulas del paper de John M. Chowing:`**
+
+<img src="Img/formulas.png" width="640" align="center"> 
+
+
 - Use el instrumento para generar un vibrato de *parámetros razonables* e incluya una gráfica en la que se
   vea, claramente, la correspondencia entre los valores `N1`, `N2` e `I` con la señal obtenida.
 - Use el instrumento para generar un sonido tipo clarinete y otro tipo campana. Tome los parámetros del

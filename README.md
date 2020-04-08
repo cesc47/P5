@@ -173,10 +173,14 @@ de [John M. Chowning](https://ccrma.stanford.edu/sites/default/files/user/jc/fm_
 instrumento usará como parámetros **básicos** los números `N1` y `N2`, y el índice de modulación `I`, que
 deberá venir expresado en semitonos.
 
+**`En la transmisión por radio se modula la frecuencia de una onda portadora con la señal que contiene la información que se quiere transmitir. La frecuencia portadora de una señal de radio FM es del orden de la centena de Megahercios (108 Hz). Cuando este método se aplica a la síntesis musical, las frecuencias portadora y moduladora se llevan a la gama de las frecuencias audio (20 Hz a 20.000 Hz). Si la frecuencia moduladora es inferior a 8 Hz, el resultado de la modulación es un vibrato, pero cuando esta frecuencia se sitúa alrededor de los 20 Hz, se obtiene una modificación del timbre del sonido modulado, como descubrió Chowning. Entre estas dos frecuencias (8 y 20 Hz), se produce una transición progresiva de un efecto al otro.`**
+
+
 **`Para hacer los cálculos, hemos seguido las fórmulas del paper de John M. Chowing:`**
 
 <img src="Img/formulas.png" width="640" align="center"> 
 
+**` El índice de modulación (d) es un parámetro que indica la desviación máxima de la frecuencia portadora en función de la moduladora.`**
 
 - Use el instrumento para generar un vibrato de *parámetros razonables* e incluya una gráfica en la que se
   vea, claramente, la correspondencia entre los valores `N1`, `N2` e `I` con la señal obtenida.

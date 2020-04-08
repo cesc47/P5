@@ -228,12 +228,15 @@ deberá venir expresado en semitonos.
 
 <img src="Img/declaracion.png" width="640" align="center"> 
 
-**`Observación: Hemos dejado en el directorio work el .wav de clarinete, para que se pueda observar como suena.`**
+**`Observación: Hemos dejado en el directorio work el .wav de clarinete, para que se pueda observar como suena. También hemos hecho lo mismo para la campana. El procedimiento ha sido el mimsmo, pero con unos diferentes valores de 'c' y 'm' y por lo tanto, una relación distinta entre N1 Y N2, en este caso usando numeros racionales. El resultado, está en el directorio work.`**
 
 
 * También puede colgar en el directorio work/doremi otras escalas usando sonidos *interesantes*. Por
     ejemplo, violines, pianos, percusiones, espadas láser de la
 	[Guerra de las Galaxias](https://www.starwars.com/), etc.
+	
+	
+**`Observación: Hemos dejado en el directorio work el .wav de un bajo, para que se pueda observar como suena.`**
 
 ### Orquestación usando el programa synth.
 

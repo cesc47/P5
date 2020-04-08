@@ -199,6 +199,10 @@ deberá venir expresado en semitonos.
 
 <img src="Img/syntetize.png" width="640" align="center"> 
 
+ **`Vamos variando ligeramente las notas, pero manteniendo el valor n1/n2. Aquí podemos observar unos valores como muestra de ejemplo (de aquí el cout que hemos puesto en el código):`**
+
+<img src="Img/valores.png" width="640" align="center"> 
+
   **`Tal y como dice el artículo para generar un sonido tipo clarienete debemos generar el esquema de a continuación con los valores:`**
   
 **` - Frecuencia de modulación = 600 Hz `**
@@ -220,6 +224,8 @@ deberá venir expresado en semitonos.
 **` - I = 4`**
 
 <img src="Img/declaracion.png" width="640" align="center"> 
+
+**`Observación: Hemos dejado en el directorio work el .wav de clarinete, para que se pueda observar como suena.`**
 
 
 * También puede colgar en el directorio work/doremi otras escalas usando sonidos *interesantes*. Por

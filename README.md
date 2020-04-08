@@ -189,6 +189,16 @@ deberá venir expresado en semitonos.
   diatónicas (fichero `doremi.sco`) y ponga el resultado en los ficheros `work/doremi/clarinete.wav` y
   `work/doremi/campana.work`.
   
+   **`Al darnos I, N1 y N2 podemos obtener las variables c y m, dando valores razonables a N1 y N2 (en la proporción que queramos para ese instrumento).`**
+  
+  **`Para generar sonidos variando N1, N2, I hemos adaptado instrument_fm.cpp, de manera que hemos calculado las variables 'c' y 'm' tal y como se ha explicado en las formulas anteriores. Así, hemos podido generar en syntetize la señal de salida. Aquí podemos observar como se ha programado la función command:`**
+  
+  <img src="Img/command.png" width="640" align="center"> 
+  
+ **`Aquí podemos observar como se ha programado la función syntetize:`**
+
+<img src="Img/syntetize.png" width="640" align="center"> 
+
   **`Tal y como dice el artículo para generar un sonido tipo clarienete debemos generar el esquema de a continuación con los valores:`**
   
 **` - Frecuencia de modulación = 600 Hz `**
@@ -203,12 +213,13 @@ deberá venir expresado en semitonos.
 
 **`Por lo tanto podemos concluir que los valores N1, N2 e I son:`**
 
-**` - N1 =`**
+**` - N1 = 3`**
 
-**` - N1 =`**
+**` - N2 = 2`**
 
 **` - I = 4`**
 
+<img src="Img/declaracion.png" width="640" align="center"> 
 
 
 * También puede colgar en el directorio work/doremi otras escalas usando sonidos *interesantes*. Por

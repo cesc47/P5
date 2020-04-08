@@ -179,6 +179,7 @@ deberá venir expresado en semitonos.
   sonido (N1, N2 e I) y de la envolvente ADSR del citado artículo. Con estos sonidos, genere sendas escalas
   diatónicas (fichero `doremi.sco`) y ponga el resultado en los ficheros `work/doremi/clarinete.wav` y
   `work/doremi/campana.work`.
+  
   **`Tal y como dice el artículo para generar un sonido tipo clarienete debemos generar el esquema de a continuación con los valores:`**
   
 **` - Frecuencia de modulación = 600 Hz `**
@@ -189,7 +190,7 @@ deberá venir expresado en semitonos.
 
 **` - Amplitud = 2`**
 
-<img src="Img/esquemaclarinente.png" width="640" align="center"> 
+<img src="Img/esquemaclarinete.png" width="640" align="center"> 
 
 **`Por lo tanto podemos concluir que los valores N1, N2 e I son:`**
 

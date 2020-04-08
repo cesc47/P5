@@ -187,7 +187,7 @@ deberá venir expresado en semitonos.
  
  **`Para visualizar el elfecto del vibrato, utilizamos el wavesurfer ya que nos permite observar las variaciones del pitch. El resultado ha estado el siguiente:`**
  
- <img src="Img/vibrato_clarinete.png" width="640" align="center"> 
+ <img src="Img/vibrator_clarinete.png" width="640" align="center"> 
   
 - Use el instrumento para generar un sonido tipo clarinete y otro tipo campana. Tome los parámetros del
   sonido (N1, N2 e I) y de la envolvente ADSR del citado artículo. Con estos sonidos, genere sendas escalas

@@ -1,4 +1,2 @@
-1	Seno	ADSR_A=0.1; ADSR_D=0.1; ADSR_S=0.8; ADSR_R=0.05; N=40;
-2	Seno	ADSR_A=0.02; ADSR_D=0.48; ADSR_S=0.6; ADSR_R=0.1; N=40;
-3	Seno	ADSR_A=0.02; ADSR_D=0.48; ADSR_S=0; ADSR_R=0; N=40;
-4   Seno    ADSR_A=0.01; ADSR_D=0; ADSR_S=1; ADSR_R=0.01; N=40;
+1   Instrument_Fm   ADSR_A=0.002; ADSR_D=0.48; ADSR_S=0; ADSR_R=0.1; n1=1; i=1; n2=1;
+2   Instrument_Fm   ADSR_A=0.001; ADSR_D=0.6; ADSR_S=0; ADSR_R=0; n1=1; i=5; n2=1;

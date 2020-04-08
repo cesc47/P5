@@ -39,12 +39,9 @@ void Seno::command(long cmd, long note, long vel) {
     bActive = true;
     adsr.start();
     index = 0;
-    float fo = 440.0 * pow(2,(((float)note - 69.0)/12.0));      //calculo de la frecuencia de la nota
-    Fo = fo/SamplingRate;                            //cálculo de la frecuencia discreta de la nota
-    step = 2 * M_PI * Fo;                                   //crearemos el seno a partir de nuestra frecuencia Fo
-    cout << fo << endl;
-
-	A = vel / 127.;                                           //amplitud normalizada
+    float fo = 440.0 * pow(2,(((float)note - 69.0)/12.0));  // Calculo de la frecuencia de la nota
+    Fo = fo/SamplingRate;                                   // Calculo de la frecuencia discreta de la nota
+	  A = vel / 127.;                                         // Amplitud normalizada
   }
   else if (cmd == 8) {	//'Key' released: sustain ends, release begins
     adsr.stop();
@@ -68,13 +65,11 @@ const vector<float> & Seno::synthesize() {
   float increment = Fo*tbl.size();
   
   for (unsigned int i=0; i<x.size(); ++i) {
-    cout << index << endl;
     x[i] = A * tbl[index];
     acumulat += increment;
 
     index = roundf(acumulat);
     if (index >= tbl.size()){
-      //cout << "hola" << endl;
       index = 0;
       acumulat = 0;
     }

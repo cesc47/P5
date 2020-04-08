@@ -10,7 +10,6 @@ namespace upc {
   class Seno: public upc::Instrument {
     EnvelopeADSR adsr;
     unsigned int index;
-    float step;
     float Fo;
     float acumulat;
 	float A;

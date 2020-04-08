@@ -180,15 +180,23 @@ deberá venir expresado en semitonos.
   diatónicas (fichero `doremi.sco`) y ponga el resultado en los ficheros `work/doremi/clarinete.wav` y
   `work/doremi/campana.work`.
   **`Tal y como dice el artículo para generar un sonido tipo clarienete debemos generar el esquema de a continuación con los valores:`**
+  
 **` - Frecuencia de modulación = 600 Hz `**
+
 **` - Desviación de la frecuencia de modulación = 4`**
+
 **` - Frecuencia de la portadora = 900 Hz`**
+
 **` - Amplitud = 2`**
-<img src="Img/esquemaclariente.png" width="640" align="center"> 
+
+<img src="Img/esquemaclarinente.png" width="640" align="center"> 
 
 **`Por lo tanto podemos concluir que los valores N1, N2 e I son:`**
+
 **` - N1 =`**
+
 **` - N1 =`**
+
 **` - I = 4`**
 
 

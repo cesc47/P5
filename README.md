@@ -287,6 +287,9 @@ de su agrado o composición. Se valorará la riqueza instrumental, su modelado y
 
 <img src="Img/comandooo.png" width="640" align="center"> 
 
+**`Los instrumentos:`**
+
+
 - Coloque los ficheros generados, junto a sus ficheros `score`, `instruments` y `efffects`, en el directorio
   `work/music`.
 - Indique, a continuación, la orden necesaria para generar cada una de las señales usando los distintos

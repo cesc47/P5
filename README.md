@@ -283,8 +283,12 @@ de su agrado o composición. Se valorará la riqueza instrumental, su modelado y
 
 **`Respecto a riqueza musical es bastante pobre, pero queríamos comprobar el real funcionamento. Si buscamos un fichero con más riqueza instrumental podemos instruentar el main theme de Hawaii5-0:`**
 
+**`La orden es:`**
+
+<img src="Img/comandooo.png" width="640" align="center"> 
 
 - Coloque los ficheros generados, junto a sus ficheros `score`, `instruments` y `efffects`, en el directorio
   `work/music`.
 - Indique, a continuación, la orden necesaria para generar cada una de las señales usando los distintos
   ficheros.
+

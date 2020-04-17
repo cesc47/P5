@@ -45,7 +45,7 @@ void Instrument_Fm::command(long cmd, long note, long vel) {
   f0 = 440.0 * pow(2, (((float)note - 69.0) / 12.0));  // Calculo de la frecuencia de la nota
   c = n1 * f0;
   m = n2 * f0; 
-	A = vel / 127.;                                         // Amplitud normalizada
+	A = 0.3 * vel / 127.;                                         // Amplitud normalizada
 
   //cout << "c:" << c << "\t" << "m:" << m << "\t" << "f0:" << f0 << endl;
   

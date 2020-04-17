@@ -246,14 +246,49 @@ Use el programa `synth` para generar canciones a partir de su partitura MIDI. Co
 
 - En este triste arreglo, la pista 1 corresponde al instrumento solista (puede ser un piano, flautas,
   violines, etc.), y la 2 al bajo (bajo eléctrico, contrabajo, tuba, etc.).
+
+<img src="Img/ins.png" width="640" align="center"> 
+
 - Coloque el resultado, junto con los ficheros necesarios para generarlo, en el directorio `work/music`.
 - Indique, a continuación, la orden necesaria para generar la señal (suponiendo que todos los archivos
   necesarios están en directorio indicado).
 
+<img src="Img/term.png" width="640" align="center"> 
+
 También puede orquestar otros temas más complejos, como la banda sonora de *Hawaii5-0* o el villacinco de
 John Lennon *Happy Xmas (War Is Over)* (fichero `The_Christmas_Song_Lennon.sco`), o cualquier otra canción
 de su agrado o composición. Se valorará la riqueza instrumental, su modelado y el resultado final.
+
+**`Primero de todo, para comprobar el impacto real de hacer esta práctica, hemos creado una partitura en una aplicación (musescore). Sabiendo las notas de la melodia y los acordes, hemos generado la partitura (más o menos decente, ya que sabemos un poco de música pero tampoco demasiado). La canción es city of stars de La la Land. Este es el resultado (bastante pensado para tocar en el piano):`**
+
+<img src="Img/p4.png" width="640" align="center"> 
+
+<img src="Img/p1.png" width="640" align="center"> 
+
+<img src="Img/p2.png" width="640" align="center"> 
+
+<img src="Img/p3.png" width="640" align="center"> 
+
+**`Una vez creada la partitura, la hemos exportado en formato .midi:`**
+
+<img src="Img/exp.png" width="640" align="center"> 
+
+**`La hemos convertido a formato .sco para sintetizarla:`**
+
+<img src="Img/o2.png" width="640" align="center"> 
+
+**`La orden para la creación es la siguiente:`**
+
+<img src="Img/o.png" width="640" align="center"> 
+
+**`Respecto a riqueza musical es bastante pobre, pero queríamos comprobar el real funcionamento. Si buscamos un fichero con más riqueza instrumental podemos instruentar el main theme de Hawaii5-0:`**
+
+**`La orden es:`**
+
+<img src="Img/comandooo.png" width="640" align="center"> 
+
 - Coloque los ficheros generados, junto a sus ficheros `score`, `instruments` y `efffects`, en el directorio
   `work/music`.
 - Indique, a continuación, la orden necesaria para generar cada una de las señales usando los distintos
   ficheros.
+

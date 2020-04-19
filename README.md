@@ -289,6 +289,7 @@ de su agrado o composición. Se valorará la riqueza instrumental, su modelado y
 
 **`Los instrumentos:`**
 
+<img src="Img/instrumentosHawaii.png" width="640" align="center"> 
 
 - Coloque los ficheros generados, junto a sus ficheros `score`, `instruments` y `efffects`, en el directorio
   `work/music`.
